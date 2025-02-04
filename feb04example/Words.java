@@ -1,4 +1,4 @@
-package feb02example;
+package feb04example;
 
 /**
  * Another example, this one messes with Strings
