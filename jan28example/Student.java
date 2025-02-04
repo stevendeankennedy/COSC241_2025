@@ -1,3 +1,4 @@
+package jan28example;
 /**
  * (This type of comment is called a JavaDoc)
  * 
