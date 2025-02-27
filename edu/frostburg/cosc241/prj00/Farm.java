@@ -33,7 +33,8 @@ public class Farm {
 				String[] data = line.split(",");
 				System.out.printf("%s has %s legs%n", data[0], data[2]);
 				
-	
+
+				
 				// TODO: FINISH THIS YOURSELVES HAHAHAHAHAHAH TOO BAD
 			}
 			
