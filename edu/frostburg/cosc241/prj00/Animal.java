@@ -7,14 +7,16 @@ package edu.frostburg.cosc241.prj00;
  */
 public abstract class Animal { // make sure it says abstract here, thanks Kevin!
 	protected String name;
+	protected String type;
 	protected int legs;
 	protected String sound;
 	protected String food;
 	protected int age;
 	protected double weight;
 	
-	public Animal(String name, int legs, String sound, String food, int age, double weight) {
+	public Animal(String name, String type, int legs, String sound, String food, int age, double weight) {
 		this.name = name;
+		this.type = type;
 		this.legs = legs;
 		this.sound = sound;
 		this.food = food;

@@ -7,7 +7,7 @@ public class Driver {
 	}
 	
 	public static void startFarm(String filename) {
-		Farm farm = new Farm(filename);
+		Farm farm = new Farm(filename, 24);  // 24 is the number of rows in the file
 	}
 
 }

@@ -7,8 +7,9 @@ import java.util.Scanner;
 public class Farm {
 	private Animal[] animals;
 	
-	public Farm(String filename) {
+	public Farm(String filename, int size) {
 		// Read the file, make the animal array, and fill it with the animals
+		animals = new Animal[size];
 		readFile(filename);
 		// TODO: Make sure animals read into the array properly
 	}
@@ -30,8 +31,9 @@ public class Farm {
 				String line = s.nextLine();
 //				System.out.println(line);
 				String[] data = line.split(",");
-//				System.out.println(data[0]);
+				System.out.printf("%s has %s legs%n", data[0], data[2]);
 				
+	
 				// TODO: FINISH THIS YOURSELVES HAHAHAHAHAHAH TOO BAD
 			}
 			

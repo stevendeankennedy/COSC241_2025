@@ -2,8 +2,8 @@ package edu.frostburg.cosc241.prj00;
 
 public class OtherAnimal extends Animal {
 
-	public OtherAnimal(String name, int legs, String sound, String food, int age, double weight) {
-		super(name, legs, sound, food, age, weight);
+	public OtherAnimal(String name, String type, int legs, String sound, String food, int age, double weight) {
+		super(name, type, legs, sound, food, age, weight);
 		// TODO Auto-generated constructor stub
 	}
 
