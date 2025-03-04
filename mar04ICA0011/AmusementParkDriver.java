@@ -7,6 +7,21 @@ public class AmusementParkDriver {
 	}
 	
 	public static void runSimulation() {
+		System.out.println("Welcome to The Space-Turkey Land Park!");
+        System.out.println("""
+                .----------------.
+               /  (   SPACE   )  \\
+              /   ~ TURKEY!! ~   \\
+             /____________________\\
+              |    (O)   (O)      |
+              |  .--.---.--.      |
+              | ( (  ) (  ) )     |
+              \\  '--'   '--'     /
+               \\  (  LASERS  )  /
+                \\____.----.___/
+                    /      \\
+                   (________)
+              """);
 		Attraction[] attr = new Attraction[4];
 		Ridable[] ridables = new Ridable[2];
 		
