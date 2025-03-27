@@ -13,7 +13,7 @@ public class AlgoExample {
 //		long p = pow(2, 5);
 //		System.out.println(p);
 		
-		long f = fib(46);
+		long f = fib(46 );
 		System.out.println(f);
 	}
 	
