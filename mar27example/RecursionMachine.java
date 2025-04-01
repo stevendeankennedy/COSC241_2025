@@ -12,6 +12,9 @@ public class RecursionMachine {
 		// recursive case
 		// need the operator
 		String op = in.next();
+		
+		// TODO: change stuff down here to make it work
+		
 		double a = in.nextDouble();
 		double b = in.nextDouble();
 		
