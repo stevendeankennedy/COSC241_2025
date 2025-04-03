@@ -43,9 +43,9 @@ public class CountingMachine {
 	}
 	
 	public int log2(int n) {
-		int count = -1;
+		int count = 0;
 		
-		for (int i=n; i>0; i/=2)
+		for (int i=n; i>1; i/=2)
 			count++;
 		
 		return count;

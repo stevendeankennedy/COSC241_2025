@@ -9,6 +9,10 @@ import java.util.Random;
  */
 public class SortMachine {
 
+	public void insertionSort(int[] list) {
+		
+	}
+	
 	public void bubbleSort(int[] list) {	
 		// do this 1 time for every possible bubble
 		for (int i=0; i<list.length; i+=1) { // O(n) <- 1 for each element
