@@ -9,6 +9,25 @@ import java.util.Random;
  */
 public class SortMachine {
 
+	// TODO: Tuesday...
+	public void quickSort(int[] list) {
+		// pick a partition value, p
+		//	best idea is Median of 3...
+		// for every element smaller than p,
+		//	push it to the left of p
+		// do it again...
+	}
+	
+	private int medianOf3(int[] list, int L, int R) {
+		// pick first, middle, and last
+		// return the median value
+		return -1;
+	}
+	
+	private int firstElemPartition(int[] list, int L, int R) {
+		return L;
+	}
+	
 	/**
 	 * Insertion sort implementation
 	 * @param list
